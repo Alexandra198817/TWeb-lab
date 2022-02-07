@@ -1,0 +1,56 @@
+nav{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul {
+    padding: .7em;
+    float: left;
+    list-style: none;
+    background: #888ff3;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 2px 1px rgba(0,0,0,.3) inset; 
+    border: 3px solid black;
+    /* added*/
+
+
+}
+nav li {
+    float:left;
+}
+
+nav a {
+    float:left;
+    padding: .8em .7em;
+    text-decoration: none;
+    color: rgb(73, 71, 71);
+    text-shadow: 0 1px 0 rgba(71, 40, 129, 0.5);
+    font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  #6262aa;
+    background: #c0b2ee;
+ }
+
+nav a:hover, nav a:focus {
+    outline: 0;
+    color: #010101;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    background: #6b77bb;
+}
+
+nav a:active {
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+
+nav li:first-child a {
+    border-left: 0;
+    border-radius: 4px 0 0 4px;            
+}
+
+nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;            
+}
